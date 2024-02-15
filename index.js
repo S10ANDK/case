@@ -73,8 +73,6 @@ async function getStudentsFilteredV2() {
       }
     );
 
-    console.log(studentsResponse);
-
     const subjectsResult = await subjectsResponse.json();
     const studentsResult = await studentsResponse.json();
 
